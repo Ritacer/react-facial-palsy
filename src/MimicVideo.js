@@ -5,7 +5,7 @@ import { Player } from "video-react";
 export default function MimicVideo() {
   return (
     <Player>
-      <source src="C:\Users\Rita Cerqueira\Documents\Projects\videos\20200410_123134.mp4" />
+      <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
     </Player>
   );
 }
