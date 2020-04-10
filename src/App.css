@@ -1,0 +1,23 @@
+.App {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.App .container {
+  background-color: bisque;
+  border: 1px solid rgb(238, 120, 120);
+}
+.App .container h1 {
+  font-family: "Lora", serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.App .container h2 {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+.App footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin: 10px 0;
+}
