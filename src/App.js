@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import MimicVideo from "./MimicVideo";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
         <div className="row">
           <div className="col-6">
             <h2>Mímica facial</h2>
-            vídeo 1
+            <MimicVideo />
           </div>
           <div className="col-6">
             <h2>Estimulação com gelo</h2>
