@@ -2,20 +2,31 @@ import React from "react";
 import "./App.css";
 import MimicVideo from "./MimicVideo";
 import ForeheadVideo from "./ForeheadVideo";
+import EyeVideo from "./EyeVideo";
+import MouthNoseVideo from "./MouthNoseVideo";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <h1>Paralisia Facial</h1>
-        <div className="row">
-          <div className="col-6">
-            <h2>Mímica facial</h2>
-            <MimicVideo />
-          </div>
-          <div className="col-6">
-            <h2>Estimulação com gelo</h2>
+        <div>
+          <h2>Mímica facial</h2>
+          <MimicVideo />
+        </div>
+        <div>
+          <h2>Estimulação com gelo</h2>
+          <div>
+            <p>Estimulação da testa</p>
             <ForeheadVideo />
+          </div>
+          <div>
+            <p>Estimulação do olho</p>
+            <EyeVideo />
+          </div>
+          <div>
+            <p>Estimulação da boca e nariz</p>
+            <MouthNoseVideo />
           </div>
         </div>
       </div>
