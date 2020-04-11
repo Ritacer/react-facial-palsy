@@ -11,21 +11,16 @@
 .App .container h1 {
   font-family: "Lora", serif;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .App .container h2 {
   font-family: "Lora", serif;
   text-align: center;
   font-weight: bolder;
-  padding: 10px;
 }
 .App .container p {
   font-family: "Lora", serif;
   text-align: center;
   font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .App footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
