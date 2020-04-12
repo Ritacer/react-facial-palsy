@@ -1,36 +1,43 @@
 .App {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
-.App .container {
-  background-color: bisque;
-  border: 1px solid rgb(238, 120, 120);
+.App .container .newContainer {
+  background-color: cornsilk;
+  border: 3px solid rgb(235, 159, 88);
   border-radius: 5px;
   padding: 10px;
 }
-.App .container h1 {
+.App .newContainer h1 {
   font-family: "Lora", serif;
   text-align: center;
+  font-size: 50px;
+  color: rgb(160, 60, 1);
+  padding-top: 10px;
 }
-.App .container h2 {
+.App .newContainer h2 {
   font-family: "Lora", serif;
   text-align: center;
-  font-weight: bolder;
-  padding-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 30px;
+  color: rgb(121, 56, 13);
 }
-.App .container .row .col-4 .wrap {
+.App .newContainer .row .col-4 {
   display: block;
   margin: 0 auto;
-  text-align: center;
-  background-color: blue;
 }
-.App .container p {
+.App .newContainer p {
   font-family: "Lora", serif;
   text-align: center;
   font-size: 30px;
+  color: rgb(160, 60, 1);
+  font-weight: bold;
+  padding-top: 14px;
 }
 .App footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
+  color: rgb(121, 56, 13);
   margin: 10px 0;
 }
