@@ -10,9 +10,11 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Paralisia Facial</h1>
-        <div>
-          <h2>Mímica facial</h2>
-          <MimicVideo />
+        <div className="row">
+          <div className="col-4">
+            <h2>Mímica facial</h2>
+            <MimicVideo />
+          </div>
         </div>
         <h2>Estimulação com gelo</h2>
         <div className="row">
