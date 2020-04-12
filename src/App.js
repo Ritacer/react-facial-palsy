@@ -14,17 +14,17 @@ export default function App() {
           <h2>Mímica facial</h2>
           <MimicVideo />
         </div>
-        <div>
-          <h2>Estimulação com gelo</h2>
-          <div>
+        <h2>Estimulação com gelo</h2>
+        <div className="row">
+          <div className="col-4">
             <p>Estimulação da testa</p>
             <ForeheadVideo />
           </div>
-          <div>
+          <div className="col-4">
             <p>Estimulação do olho</p>
             <EyeVideo />
           </div>
-          <div>
+          <div className="col-4">
             <p>Estimulação da boca e nariz</p>
             <MouthNoseVideo />
           </div>
