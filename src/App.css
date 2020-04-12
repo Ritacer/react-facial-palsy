@@ -21,17 +21,13 @@
   font-size: 36px;
   font-weight: bold;
   padding-top: 30px;
-  color: rgb(121, 56, 13);
-}
-.App .newContainer .row .col-4 {
-  display: block;
-  margin: 0 auto;
+  color: rgb(39, 153, 182);
 }
 .App .newContainer p {
   font-family: "Lora", serif;
   text-align: center;
   font-size: 30px;
-  color: rgb(160, 60, 1);
+  color: rgb(39, 153, 182);
   font-weight: bold;
   padding-top: 14px;
 }
