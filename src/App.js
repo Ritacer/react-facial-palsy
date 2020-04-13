@@ -1,9 +1,6 @@
 import React from "react";
 import "./App.css";
 import ResponsivePlayer from "./responsive-player";
-import ForeheadVideo from "./ForeheadVideo";
-import EyeVideo from "./EyeVideo";
-import MouthNoseVideo from "./MouthNoseVideo";
 
 export default function App() {
   return (
@@ -12,14 +9,14 @@ export default function App() {
         <div className="newContainer">
           <h1>Paralisia Facial</h1>
           <h2>Mímica facial</h2>
-          <ResponsivePlayer />
+          <ResponsivePlayer url="https://youtu.be/_27eD49ePQE" />
           <h2>Estimulação com gelo</h2>
           <p>Estimulação da testa</p>
-          <ForeheadVideo />
+          <ResponsivePlayer url="https://youtu.be/_27eD49ePQE" />
           <p>Estimulação do olho</p>
-          <EyeVideo />
+          <ResponsivePlayer url="https://youtu.be/_27eD49ePQE" />
           <p>Estimulação da boca e nariz</p>
-          <MouthNoseVideo />
+          <ResponsivePlayer url="https://youtu.be/_27eD49ePQE" />
         </div>
         <footer>
           <a
