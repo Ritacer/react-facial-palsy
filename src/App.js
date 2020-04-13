@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import MimicVideo from "./MimicVideo";
+import ResponsivePlayer from "./responsive-player";
 import ForeheadVideo from "./ForeheadVideo";
 import EyeVideo from "./EyeVideo";
 import MouthNoseVideo from "./MouthNoseVideo";
@@ -12,7 +12,7 @@ export default function App() {
         <div className="newContainer">
           <h1>Paralisia Facial</h1>
           <h2>Mímica facial</h2>
-          <MimicVideo />
+          <ResponsivePlayer />
           <h2>Estimulação com gelo</h2>
           <p>Estimulação da testa</p>
           <ForeheadVideo />
