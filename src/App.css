@@ -1,36 +1,8 @@
 .App {
-  max-width: 500px;
+  max-width: 1200px;
   margin: 10px auto;
 }
-.App .container .newContainer {
-  background-color: cornsilk;
-  border: 3px solid rgb(235, 159, 88);
-  border-radius: 5px;
-  padding: 10px;
-}
-.App .newContainer h1 {
-  font-family: "Lora", serif;
-  text-align: center;
-  font-size: 50px;
-  color: rgb(39, 153, 182);
-  padding-top: 10px;
-}
-.App .newContainer h2 {
-  font-family: "Lora", serif;
-  text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  padding-top: 30px;
-  color: rgb(121, 56, 13);
-}
-.App .newContainer p {
-  font-family: "Lora", serif;
-  text-align: center;
-  font-size: 30px;
-  color: rgb(160, 60, 1);
-  font-weight: bold;
-  padding-top: 14px;
-}
+
 .App footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;

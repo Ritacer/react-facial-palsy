@@ -1,0 +1,47 @@
+.FacialPalsy .newContainer {
+  background-color: cornsilk;
+  border: 3px solid rgb(235, 159, 88);
+  border-radius: 5px;
+  padding: 10px;
+}
+.FacialPalsy .newContainer .translation h1 {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(39, 153, 182);
+  padding-top: 10px;
+}
+.FacialPalsy .newContainer .translation h3 {
+  font-family: "Lora", serif;
+  text-align: right;
+  font-size: 26px;
+}
+.FacialPalsy .newContainer .main {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.FacialPalsy .newContainer .main h2 {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: rgb(121, 56, 13);
+}
+.FacialPalsy .newContainer h2 {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 50px;
+  color: rgb(121, 56, 13);
+}
+.FacialPalsy .newContainer p {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(160, 60, 1);
+  font-weight: bold;
+  padding-top: 14px;
+}
