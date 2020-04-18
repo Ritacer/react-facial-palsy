@@ -45,3 +45,8 @@
   font-weight: bold;
   padding-top: 14px;
 }
+.FacialPalsy .newContainer .massage {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}

@@ -31,6 +31,10 @@ export default function FacialPalsy() {
             <ResponsivePlayer url="92996122_218388046156541_8443100608021397504_n.mp4" />
           </div>
         </div>
+        <div className="massage">
+          <h2>Massagem da face</h2>
+          <ResponsivePlayer url="92996122_218388046156541_8443100608021397504_n.mp4" />
+        </div>
       </div>
     </div>
   );
