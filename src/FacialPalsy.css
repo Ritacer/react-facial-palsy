@@ -16,6 +16,12 @@
   text-align: right;
   font-size: 26px;
 }
+.FacialPalsy .newContainer .translation a {
+  font-family: "Lora", serif;
+  text-align: right;
+  font-size: 26px;
+  color: rgb(39, 153, 182);
+}
 .FacialPalsy .newContainer .main {
   max-width: 500px;
   display: block;

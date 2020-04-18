@@ -77,7 +77,7 @@ export default function FacialPalsy() {
               </span>
               /English
               <span role="img" aria-label="flagGb">
-                🇬🇧>
+                🇬🇧
               </span>
             </h3>
           </div>
